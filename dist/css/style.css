@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700;800;900&display=swap");
+body {
+  font-size: 100%;
+  background: #fafafa;
+  font-family: "Poppins", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 20px;
+  width: 100%;
+}
+
+.container .intro {
+  text-align: center;
+}
+
+.container .intro__title {
+  line-height: 1.4;
+}
+
+.container .intro__title h2 {
+  font-size: 2.1rem;
+  font-weight: 100;
+  margin-bottom: 0;
+}
+
+.container .intro__title h3 {
+  font-size: 2.1rem;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.container .intro__content {
+  line-height: 1.4;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.container .intro__content p {
+  font-size: 1.2rem;
+  font-weight: 200;
+  opacity: .6;
+  width: 75%;
+}
+
+.container .card {
+  background: #fff;
+  width: 100%;
+  height: 17rem;
+  border-radius: 0.350rem;
+  margin-bottom: 25px;
+  line-height: 1.8;
+  padding: 25px;
+  position: relative;
+}
+
+.container .card.cyan {
+  border-top: 5px solid #45d3d3;
+  padding: 20px;
+}
+
+.container .card.red {
+  border-top: 5px solid #ea5353;
+}
+
+.container .card.blue {
+  border-top: 5px solid #549ef2;
+}
+
+.container .card.orange {
+  border-top: 5px solid #fcaf4a;
+}
+
+.container .card h3, .container .card p {
+  margin: 0;
+}
+
+.container .card h3 {
+  font-size: 1.3rem;
+}
+
+.container .card p {
+  font-size: 1.2rem;
+  font-weight: 100;
+  opacity: .6;
+}
+
+.container .card .img {
+  position: absolute;
+  bottom: 25px;
+  right: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  .container .intro {
+    width: 100%;
+  }
+  .container .intro__content {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .container .intro__content p {
+    max-width: 650px;
+  }
+  .container .blocks {
+    display: flex;
+    justify-content: center;
+  }
+  .container .blocks .supervisor, .container .blocks .calculator {
+    display: flex;
+    align-items: center;
+  }
+  .container .blocks .col {
+    margin: 15px;
+  }
+  .container .blocks .card {
+    max-width: 500px;
+  }
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
